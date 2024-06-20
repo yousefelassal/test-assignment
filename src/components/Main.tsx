@@ -1,6 +1,10 @@
+import Button from "./ui/Button"
+
 const Main = () => {
   return (
-    <div>Main</div>
+    <div>
+      <Button>Done</Button>
+    </div>
   )
 }
 
