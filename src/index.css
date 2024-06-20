@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+@layer base {
+    :root {
+        --primary: #FFCE22;
+        --primary-hover: #FFD84D;
+        --secondary: #1F2128;
+    }
+}
+
+html {
     font-family: 'Montserrat', sans-serif;
 }
