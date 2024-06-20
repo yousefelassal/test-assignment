@@ -1,8 +1,10 @@
+import Main from "./components/Main"
+
 function App() {
   return (
-    <>
-      <h1>React App</h1>
-    </>
+    <div className="bg-white min-h-72 flex flex-col items-center justify-center w-full">
+      <Main />
+    </div>
   )
 }
 
